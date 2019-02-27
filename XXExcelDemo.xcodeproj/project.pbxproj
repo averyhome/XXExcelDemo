@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A7FDB76BFE745E4C10B79C0 /* Pods_XXExcelDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90DA4FE840912EA4890286C /* Pods_XXExcelDemoUITests.framework */; };
+		10442AE114C4288287297751 /* Pods_XXExcelDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5597555339FD1FEC16194D2E /* Pods_XXExcelDemoTests.framework */; };
+		250140C698DFC2894CCA1D3A /* Pods_XXExcelDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3661294A045C94C0A4921922 /* Pods_XXExcelDemo.framework */; };
 		30A2DDF1222688B50086AB6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A2DDF0222688B50086AB6E /* AppDelegate.swift */; };
 		30A2DDF3222688B50086AB6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A2DDF2222688B50086AB6E /* ViewController.swift */; };
 		30A2DDF6222688B50086AB6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A2DDF4222688B50086AB6E /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		094AC76E7842DC28F6FCEF40 /* Pods-XXExcelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXExcelDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXExcelDemo/Pods-XXExcelDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		121A8633D8B9FF65FB31896C /* Pods-XXExcelDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXExcelDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXExcelDemoTests/Pods-XXExcelDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B0B9DED4394A90D441C5143 /* Pods-XXExcelDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXExcelDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXExcelDemoTests/Pods-XXExcelDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		30A2DDED222688B50086AB6E /* XXExcelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXExcelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A2DDF0222688B50086AB6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30A2DDF2222688B50086AB6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		30A2DE0C222688B50086AB6E /* XXExcelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXExcelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A2DE10222688B50086AB6E /* XXExcelDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXExcelDemoUITests.swift; sourceTree = "<group>"; };
 		30A2DE12222688B50086AB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3661294A045C94C0A4921922 /* Pods_XXExcelDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXExcelDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5597555339FD1FEC16194D2E /* Pods_XXExcelDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXExcelDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		697F55042B4EB0D11E9CB7DC /* Pods-XXExcelDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXExcelDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXExcelDemoUITests/Pods-XXExcelDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		793DB2FB07B1281907B433BD /* Pods-XXExcelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXExcelDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXExcelDemo/Pods-XXExcelDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8F4FD5D80CA5D0C39F0A1A41 /* Pods-XXExcelDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXExcelDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXExcelDemoUITests/Pods-XXExcelDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B90DA4FE840912EA4890286C /* Pods_XXExcelDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXExcelDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				250140C698DFC2894CCA1D3A /* Pods_XXExcelDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10442AE114C4288287297751 /* Pods_XXExcelDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A7FDB76BFE745E4C10B79C0 /* Pods_XXExcelDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				30A2DE04222688B50086AB6E /* XXExcelDemoTests */,
 				30A2DE0F222688B50086AB6E /* XXExcelDemoUITests */,
 				30A2DDEE222688B50086AB6E /* Products */,
+				617F006310FE9D5A6C0BE22C /* Pods */,
+				C320AFB477EFAAA37AD72C0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = XXExcelDemoUITests;
 			sourceTree = "<group>";
 		};
+		617F006310FE9D5A6C0BE22C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				094AC76E7842DC28F6FCEF40 /* Pods-XXExcelDemo.debug.xcconfig */,
+				793DB2FB07B1281907B433BD /* Pods-XXExcelDemo.release.xcconfig */,
+				121A8633D8B9FF65FB31896C /* Pods-XXExcelDemoTests.debug.xcconfig */,
+				2B0B9DED4394A90D441C5143 /* Pods-XXExcelDemoTests.release.xcconfig */,
+				697F55042B4EB0D11E9CB7DC /* Pods-XXExcelDemoUITests.debug.xcconfig */,
+				8F4FD5D80CA5D0C39F0A1A41 /* Pods-XXExcelDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C320AFB477EFAAA37AD72C0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3661294A045C94C0A4921922 /* Pods_XXExcelDemo.framework */,
+				5597555339FD1FEC16194D2E /* Pods_XXExcelDemoTests.framework */,
+				B90DA4FE840912EA4890286C /* Pods_XXExcelDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30A2DE15222688B50086AB6E /* Build configuration list for PBXNativeTarget "XXExcelDemo" */;
 			buildPhases = (
+				71C2D6433E97972AED801501 /* [CP] Check Pods Manifest.lock */,
 				30A2DDE9222688B50086AB6E /* Sources */,
 				30A2DDEA222688B50086AB6E /* Frameworks */,
 				30A2DDEB222688B50086AB6E /* Resources */,
+				D49CFE8481E7B1931EF8DFE2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30A2DE18222688B50086AB6E /* Build configuration list for PBXNativeTarget "XXExcelDemoTests" */;
 			buildPhases = (
+				A11E35B874BBAE034E782E97 /* [CP] Check Pods Manifest.lock */,
 				30A2DDFD222688B50086AB6E /* Sources */,
 				30A2DDFE222688B50086AB6E /* Frameworks */,
 				30A2DDFF222688B50086AB6E /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30A2DE1B222688B50086AB6E /* Build configuration list for PBXNativeTarget "XXExcelDemoUITests" */;
 			buildPhases = (
+				D66DB2006CE972F459109FC6 /* [CP] Check Pods Manifest.lock */,
 				30A2DE08222688B50086AB6E /* Sources */,
 				30A2DE09222688B50086AB6E /* Frameworks */,
 				30A2DE0A222688B50086AB6E /* Resources */,
@@ -250,6 +294,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71C2D6433E97972AED801501 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XXExcelDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A11E35B874BBAE034E782E97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XXExcelDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D49CFE8481E7B1931EF8DFE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XXExcelDemo/Pods-XXExcelDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XXExcelDemo/Pods-XXExcelDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D66DB2006CE972F459109FC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XXExcelDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30A2DDE9222688B50086AB6E /* Sources */ = {
@@ -430,6 +565,7 @@
 		};
 		30A2DE16222688B50086AB6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 094AC76E7842DC28F6FCEF40 /* Pods-XXExcelDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +584,7 @@
 		};
 		30A2DE17222688B50086AB6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 793DB2FB07B1281907B433BD /* Pods-XXExcelDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +603,7 @@
 		};
 		30A2DE19222688B50086AB6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121A8633D8B9FF65FB31896C /* Pods-XXExcelDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +625,7 @@
 		};
 		30A2DE1A222688B50086AB6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B0B9DED4394A90D441C5143 /* Pods-XXExcelDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +647,7 @@
 		};
 		30A2DE1C222688B50086AB6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 697F55042B4EB0D11E9CB7DC /* Pods-XXExcelDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +668,7 @@
 		};
 		30A2DE1D222688B50086AB6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4FD5D80CA5D0C39F0A1A41 /* Pods-XXExcelDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

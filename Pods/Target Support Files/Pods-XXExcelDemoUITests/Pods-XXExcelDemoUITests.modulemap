@@ -1,0 +1,6 @@
+framework module Pods_XXExcelDemoUITests {
+  umbrella header "Pods-XXExcelDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
